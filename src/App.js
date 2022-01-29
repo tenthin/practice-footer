@@ -1,11 +1,14 @@
-import './App.css';
-import React from 'react'
+import React , {useStaet} from 'react'
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>Ayoo</h1>
+    <div className="container my-5">
+      <div className='card text-center my-5'>
+        <div className="card-body">
+          <h1>Counter App</h1>
+        </div>
+      </div>
     </div>
   );
 }
